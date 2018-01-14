@@ -8,10 +8,6 @@
             font-size: 12pt;
         }
 
-        .nav-item {
-            margin-left: 10px;
-        }
-
         .container {
             margin-top: 30px
         }
@@ -23,9 +19,9 @@
             stroke-dasharray: 5px;
         }
 
-        .embed-property {
+        .embed-size {
             width: 920px;
-            height: 560px;
+            height: 580px;
         }
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
@@ -41,55 +37,222 @@
             crossorigin="anonymous"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
 </head>
-<body style="width: 1280px; margin: auto auto">
-<table style="width: 1280px; margin-top: 10px">
+<body style="width: 925px; margin: auto auto">
+<table style="width: 920px; margin-top: 10px">
     <tr>
-        <td style="vertical-align: top; width: 350px; padding-right: 20px;">
-            <div style=" height: 720px; overflow: auto">
-                <nav id="navbar" class="navbar navbar-light bg-light">
-                    <nav class="nav nav-pills flex-column">
-                        <a class="nav-link navbar-brand" href="#2">2 Ukraine Profile</a>
-                        <a class="nav-link navbar-brand" href="#2.1">2.1 Background Information</a>
-                        <a class="nav-link nav-item" href="#2.1.1">2.1.1 Historical Background</a>
-                        <a class="nav-link nav-item" href="#2.1.2">2.1.2 Key Figures</a>
-                        <a class="nav-link navbar-brand" href="#2.2">2.2 Economic Structure</a>
-                        <a class="nav-link nav-item" href="#2.2.1">2.2.1 Economic Sectors</a>
-                        <a class="nav-link nav-item" href="#2.2.2">2.2.2 Import Composition</a>
-                        <a class="nav-link nav-item" href="#2.2.3">2.2.3 Export Composition</a>
-                        <a class="nav-link nav-item" href="#2.2.4">2.2.4 Industries with Externalities</a>
-                        <a class="nav-link navbar-brand" href="#2.3">2.3 Economic Indicators</a>
-                        <a class="nav-link nav-item" href="#2.3.1">2.3.1 Exchange rate</a>
-                        <a class="nav-link nav-item" href="#2.3.2">2.3.2 Interest rate</a>
-                        <a class="nav-link nav-item" href="#2.3.3">2.3.3 Inflation rate</a>
-                        <a class="nav-link nav-item" href="#2.3.4">2.3.4 Unemployment Rate</a>
-                        <a class="nav-link nav-item" href="#2.3.5">2.3.5 Gini coefficient</a>
-                        <a class="nav-link nav-item" href="#2.3.6">2.3.6 HDI</a>
-                        <a class="nav-link nav-item" href="#2.3.7">2.3.7 Balance of Payments</a>
-                        <a class="nav-link" style="margin-left: 20px" href="#2.3.7.1">2.3.7.1 Current Account</a>
-                        <a class="nav-link" style="margin-left: 20px" href="#2.3.7.2">2.3.7.2 Capital Account</a>
-                        <a class="nav-link" style="margin-left: 20px" href="#2.3.7.3">2.3.7.3 Financial Account</a>
-                        <a class="nav-link navbar-brand" href="#2.4">2.4 Trade</a>
-                        <a class="nav-link nav-item" href="#2.4.1">2.4.1 Trading Partners</a>
-                        <a class="nav-link" style="margin-left: 20px" href="#2.4.1.1">2.4.1.1 Import Origins</a>
-                        <a class="nav-link" style="margin-left: 20px" href="#2.4.1.2">2.4.1.2 Export Destinations</a>
-                        <a class="nav-link nav-item" href="#2.4.2">2.4.2 Trade Balance</a>
-                        <a class="nav-link nav-item" href="#2.4.3">2.4.3 Trade Benefits</a>
-                        <a class="nav-link nav-item" href="#2.4.4">2.4.4 Protectionism policy</a>
-                        <a class="nav-link navbar-brand" href="#2.5">2.5 SWOT Analysis</a>
-                        <a class="nav-link navbar-brand" href="#3">3 Development Proposal</a>
-                        <a class="nav-link navbar-brand" href="#3.1">3.1 Type of Aid</a>
-                        <a class="nav-link nav-item" href="#3.1.1">3.1.1 Justification</a>
-                        <a class="nav-link nav-item" href="#3.1.2">3.1.2 Amount and Timeline</a>
-                        <a class="nav-link nav-item" href="#3.1.3">3.1.3 Goals</a>
-                        <a class="nav-link navbar-brand" href="#3.2">3.2 Past Aids</a>
-                        <a class="nav-link navbar-brand" href="#3.3">3.3 Problem with Aids</a>
-                        <a class="nav-link navbar-brand" href="#4">4 Reference and Data Sources</a>
-                    </nav>
-                </nav>
-            </div>
+        <td>
         </td>
         <td style="vertical-align: top">
-            <div data-spy="scroll" data-target="#navbar" data-offset="50" style="height: 720px; overflow: auto">
+            <div>
+                <h1 id="1">1. Netherlands Profile</h1>
+                <h2 id="1.1">1.1 Background Information</h2>
+                <p>
+                    The Netherlands is the 9th largest export economy in the world. In 2016, the Netherlands exported
+                    $435B and imported $393B, resulting in a positive trade balance of $42.8B.
+                </p>
+                <p>The Netherlands borders Belgium and Germany by land and the United Kingdom, Anguilla, Saint Kitts and
+                    Nevis, the Virgin Islands and Venezuela by sea.
+                </p>
+                Reference: <a href="https://atlas.media.mit.edu/en/profile/country/nld/">https://atlas.media.mit.edu/en/profile/country/nld/</a><br/><br/>
+                <h2 id="1.2">1.2 Economic Structure</h2>
+                <h4 id="1.2.1">1.2.1 Economic Sectors</h4>
+                <p>
+                    The service sector is the most dominant and biggest contributor to Netherlands’ economy. The service
+                    sector contributes as much as 73.7% to the GDP (2009 figures) and generates employment opportunities
+                    for 80% of the workforce (8.33 million).
+                </p>
+                <p>
+                    The service sector includes financial services, transportation, goods distribution and tourism. The
+                    computer related industry is also a well developed segment for the sector. The telecommunication
+                    industry holds a lot of potential as well. The latest trend in the service sector seems to be
+                    mergers to
+                    consolidate resources and optimize usage.
+                </p>
+                <p>
+                    Netherlands’ industrial sector is a well diversified segment with a variety of industries, such as
+                    petroleum refining, food processing, chemicals and electrical machinery. Other prominent industries
+                    are:
+                </p>
+                <ul>
+                    <li>Agro-industries</li>
+                    <li>Metal and engineering products</li>
+                    <li>Construction</li>
+                    <li>Microelectronics</li>
+                    <li>Fishing</li>
+                </ul>
+                <p>
+                    The industry sector contributes 24.4% to the GDP and employs almost 18% of the workforce. The
+                    government is taking steps to encourage the growth of new industries in areas that are economically
+                    depressed. Specific measures have been taken to encourage growth in biotechnology, aerospace
+                    industry and microelectronics. Being a huge economy, FDI keeps coming in and stood at $661 billions
+                    in 2009.
+                </p>
+                Reference: <a href="http://www.economywatch.com/world_economy/netherlands/structure-of-economy.html">http://www.economywatch.com/world_economy/netherlands/structure-of-economy.html</a><br/><br/>
+                <h4 id="1.2.2">1.2.2 Import Composition</h4>
+                <iframe class="embed-size" scrolling="no"
+                        src="http://atlas.media.mit.edu/en/visualize/embed/tree_map/hs92/import/nld/all/show/2016/?controls=false"
+                        frameborder="0"></iframe>
+                <br/><br/>
+                <h4 id="1.2.3">1.2.3 Export Composition</h4>
+                <iframe class="embed-size" scrolling="no"
+                        src="http://atlas.media.mit.edu/en/visualize/embed/tree_map/hs92/export/nld/all/show/2016/?controls=false"
+                        frameborder="0"></iframe>
+                <br/><br/>
+                <h4 id="1.2.4">1.2.4 Industries with Externalities</h4>
+                <p>
+                    Agriculture. Dutch agriculture comprises two main parts: animal production and arable or crop
+                    production. Each type of production has different impacts on the environment. The environment is
+                    subdivided into three parts: 1) water 2) air and 3) soil .
+                </p>
+                <p>
+                    With respect to water, both the animal farms and the arable farms have an impact on this part of the
+                    environment. As regards animal production, the following animal activities are considered: cows,
+                    sheep, goats, pigs, poultry and rabbits. The manure of these animals ends up at the soil. Via the
+                    soil the components of the manure like phosphate (P) and nitrate (N) flush into the water. Besides,
+                    rainwater will flush the components of the manure directly from the surface of the soil into the
+                    water. With regard to arable, there are also substances which will flush into the water.
+                    Fertilizers, pesticides, nitrate (N) and phosphate (P) used in this sector will end up in the water.
+                    These substances have an impact on the biodiversity and human health. Removing or reducing these
+                    substances in the water involves costs. An estimation of these costs has to be made to estimate the
+                    costs of the negative externalities of the farms with respect to water.
+                </p>
+                <p>
+                    Farms have also several impacts on the air. Animal farms emit methane (CH<sub>4</sub>), carbon
+                    dioxide (CO<sub>2</sub>),
+                    nitrous oxide (N<sub>2</sub>), sulfur dioxide (SO<sub>2</sub>) and ammonia (NH<sub>3</sub>) to the
+                    air. Arable farms emit carbon
+                    dioxide (CO<sub>2</sub>) and nitrogen (N) to the air. An estimation of the costs and emission per
+                    animal
+                    species and crop has to be made to make an estimation of the total impact of the agricultural sector
+                    on the air.
+                </p>
+                <p>With respect to soil, both types of farms have an impact on this part of the environment. Via the
+                    manure of the animals, animal farms deposit nitrate (N), phosphate (P) and zoonosis. Pesticides and
+                    fertilizers are also getting into the soil. With respect to arable farms, pesticides, nitrate (N),
+                    phosphate (P), carbon dioxide (CO<sub>2</sub>) and fertilizers are getting into the soil. These
+                    different
+                    substances have different impacts on the biodiversity in the soil. Land use changes have also an
+                    impact on the composition of the soil. Certain changes will lead to fixation of carbon dioxide
+                    (CO<sub>2</sub>)
+                    and others will lead to emission of carbon dioxide (CO<sub>2</sub>). Both the fixation and emissions
+                    will have
+                    an impact on the biodiversity and the environmental as a whole. The emissions and fixation and the
+                    associated costs of all these substances have to be estimated to show the impact of the agricultural
+                    sector with respect to the soil.
+                </p>
+                <a href="https://ageconsearch.umn.edu/bitstream/182705/2/Polman-Costs_and_benefits_associated_with_the_externalities_generated-203_a.pdf">https://ageconsearch.umn.edu/bitstream/182705/2/Polman-Costs_and_benefits_associated_with_the_externalities_generated-203_a.pdf</a><br/><br/>
+                <h2 id="1.3">1.3 Economic Indicators</h2>
+                <h4 id="1.3.1">1.3.1 Exchange Rate</h4>
+                <iframe src="https://knoema.com/atlas/embed/Netherlands/topics/Economy/Short-term-indicators/Exchange-rate"
+                        allowtransparency="true" frameborder="0" class="embed-size" scrolling="no"></iframe>
+                <br/><br/>
+                <h4 id="1.3.2">1.3.2 Interest Rate</h4>
+                <iframe src="https://knoema.com/atlas/embed/Netherlands/topics/Economy/Financial-Sector-Interest-rates/Lending-interest-rate"
+                        allowtransparency="true" frameborder="0" class="embed-size" scrolling="no"></iframe>
+                <br/><br/>
+                <!--<iframe src="https://data.worldbank.org/share/widget?indicators=FR.INR.LEND&locations=NL&view=chart" width='910' height='606' frameBorder='0' scrolling="no" ></iframe>-->
+                <h4 id="1.3.3">1.3.3 Inflation Rate</h4>
+                <iframe src="https://knoema.com/atlas/embed/Netherlands/topics/Economy/Inflation-and-Prices/Inflation-rate"
+                        allowtransparency="true" frameborder="0" class="embed-size" scrolling="no"></iframe>
+                <br/><br/>
+                <h4 id="1.3.4">1.3.4 Unemployment Rate</h4>
+                <iframe src="https://knoema.com/atlas/embed/Netherlands/Unemployment-rate" allowtransparency="true"
+                        frameborder="0" class="embed-size" scrolling="no"></iframe>
+                <br/><br/>
+                <h4 id="1.3.5">1.3.5 GINI Coefficient</h4>
+                <iframe src="https://knoema.com/atlas/embed/Netherlands/GINI-index" allowtransparency="true"
+                        frameborder="0" class="embed-size" scrolling="no"></iframe>
+                <br/><br/>
+                <!--<iframe src="https://data.worldbank.org/share/widget?indicators=SI.POV.GINI&locations=NL" width='910'-->
+                <!--height='580' frameBorder='0' scrolling="no"></iframe>-->
+                <h4 id="1.3.6">1.3.6 Human Development Index</h4>
+                <iframe src="https://knoema.com/atlas/embed/Netherlands/Human-development-index"
+                        allowtransparency="true" frameborder="0" class="embed-size" scrolling="no"></iframe>
+                <br/><br/>
+                <h4 id="1.3.7">1.3.7 Balance of Payments</h4>
+                <h5 id="1.3.7.1">1.3.7.1 Current Account</h5>
+                <iframe src="https://knoema.com/atlas/embed/Netherlands/topics/Economy/Balance-of-Payments-Current-accounts/Current-account-balance"
+                        allowtransparency="true" frameborder="0" class="embed-size" scrolling="no"></iframe>
+                <br/><br/>
+                <h5 id="1.3.7.2">1.3.7.2 Capital Account</h5>
+                <iframe src="https://knoema.com/atlas/embed/Netherlands/topics/Economy/Balance-of-Payments-Capital-and-financial-account/Net-capital-account"
+                        allowtransparency="true" frameborder="0" class="embed-size" scrolling="no"></iframe>
+                <br/><br/>
+                <h5 id="1.3.7.3">1.3.7.3 Financial Account</h5>
+                <iframe src="https://knoema.com/atlas/embed/Netherlands/topics/Economy/Balance-of-Payments-Capital-and-financial-account/Net-financial-account"
+                        allowtransparency="true" frameborder="0" class="embed-size" scrolling="no"></iframe>
+                <br/><br/>
+                <h2 id="1.4">1.4 Trade</h2>
+                <h4 id="1.4.1">1.4.1 Trade Partners</h4>
+                <h5 id="1.4.1.1">1.4.1.1 Import Origins</h5>
+                <iframe class="embed-size"
+                        src="http://atlas.media.mit.edu/en/visualize/embed/tree_map/hs92/import/nld/show/all/2016/?controls=false"
+                        frameborder="0" scrolling="no"></iframe>
+                <br/><br/>
+                <h5 id="1.4.1.2">1.4.1.2 Export Destinations</h5>
+                <iframe class="embed-size"
+                        src="http://atlas.media.mit.edu/en/visualize/embed/tree_map/hs92/export/nld/show/all/2016/?controls=false"
+                        frameborder="0" scrolling="no"></iframe>
+                <br/><br/>
+                <h4 id="1.4.2">1.4.2 Trade Balance</h4>
+                <iframe class="embed-size"
+                        src="http://atlas.media.mit.edu/en/visualize/embed/line/hs92/show/nld/all/all/1995.2016/?controls=false"
+                        frameborder="0" scrolling="no"></iframe>
+                <br/><br/>
+                <h4 id="1.4.3">1.4.3 Trade Benefits</h4>
+                <p>
+                    Due to globalization, international trade flows have increased significantly over recent decades.
+                    Between 1996 and 2007, imports of goods into the Netherlands increased 7% by monetary value
+                    (constant prices).
+                </p>
+                <p>
+                    As part of their corporate strategies, companies in the Netherlands take shared responsibility for
+                    mitigating the impacts elsewhere in the world, caused within their supply chains. This applies
+                    especially to the impacts from production processes in countries that have less well-developed
+                    environmental legislation and governance. Shaping this shared responsibility is an important part of
+                    the Dutch Aid and Trade policy agenda.
+                </p>
+                <p>
+                    Forests and agricultural ecosystems in remote economies provide the Dutch economy with a range of
+                    natural resources. Imported resources are processed into final products that are sold in the
+                    Netherlands or to other countries. Dutch economy is therefore strongly interrelated with economies
+                    around the world.
+                </p>
+                <p>
+                    The trade in biotic resources and derived products accounts for nearly 15% of all imports in
+                    monetary terms. The Dutch food and feed industry strongly depends on these imports. Non-EU countries
+                    provide 40% of the imports in agricultural resource and food products, and after processing, most
+                    products are sold on the European market. Cacao, soya and palm oil are the three most important
+                    agricultural commodities of tropical origin: cacao mainly comes from Africa, palm oil from Southeast
+                    Asia and soya from South American countries and the United States.
+                </p>
+                Reference: <a href="http://www.pbl.nl/node/63907">http://www.pbl.nl/node/63907</a><br/><br/>
+                <h2 id="1.5">1.5 Resources and Potential</h2>
+                <p>
+                    GDP growth is projected to remain strong and broad-based in 2018 and 2019. Private consumption
+                    growth will peak in 2018, reflecting a strong labour market and a looser fiscal stance, before
+                    moderating in 2019. Growth in business investment should be vibrant, driven by improved economic
+                    sentiment and solid external demand. Wage growth and inflation are projected to rise gradually. The
+                    current account surplus is set to ease gradually but remain at a high level.
+                </p>
+                <p>
+                    Accommodative euro area monetary policy will continue to support demand. Fiscal measures outlined in
+                    the recent government coalition agreement will also be supportive, especially in 2018. To ensure
+                    more inclusive growth, labour market reforms should make it easier for workers to attain good
+                    quality jobs. Avenues to reduce reliance on non-standard jobs include lowering the cap on severance
+                    payments and ensuring that the dismissal system works more efficiently. Improving credit flow to
+                    SMEs and increasing public spending on R&D would lead to higher rates of investment and help to
+                    reduce one of the largest current account surpluses in the euro area.
+                </p>
+                <p>
+                    House prices have recovered and in major cities have surpassed the level reached before the global
+                    financial crisis. High levels of mortgage debt make households vulnerable to decreases in house
+                    prices. The reduction in the maximum loan-to-value ratio for new mortgages and the lowering of
+                    mortgage interest relief should proceed at a faster pace than planned to reduce fragilities. Easing
+                    the strict regulation of the private rental market would improve housing supply and damp excessive
+                    house price growth.
+                </p>
+                Reference: <a href="http://www.oecd.org/economy/netherlands-economic-forecast-summary.htm">http://www.oecd.org/economy/netherlands-economic-forecast-summary.htm</a><br/><br/>
                 <h1 id="2">2. Ukraine Profile</h1>
                 <h2 id="2.1">2.1 Background Information</h2>
                 <h4 id="2.1.1">2.1.1 Historical Background</h4>
@@ -147,7 +310,7 @@
                 <h5>Population: 42 Million</h5>
                 <h5>GDP Total: $366 billion (50th)</h5>
                 <h5>GDP per capita: $8,656 (114th)</h5>
-                <h5>Ranked as "Low and Middle income country" according the world bank</h5>
+                <h5>Ranked as "Low and Middle income country" according to the world bank</h5>
                 <br/>
                 <h2 id="2.2">2.2 Economic Structure</h2>
                 <h4 id="2.2.1">2.2.1 Economic Sectors</h4>
@@ -161,25 +324,20 @@
 
                     function drawPie() {
                         var width = 640, height = 450;
-                        // 创建一个分组用来组合要画的图表元素
                         var main = d3.select('.container svg').append('g')
                             .classed('main', true)
                             .attr('transform', "translate(" + width / 2 + ',' + height / 3 + ')');
-                        // 模拟数据
                         var dataset = [
                             {name: 'Agriculture: 13.8%', value: 13.8},
                             {name: 'Manufacture: 27.3%', value: 27.3},
                             {name: 'Service: 59.5%', value: 59.5}
                         ];
-                        // 转换原始数据为能用于绘图的数据
                         var pie = d3.pie()
                             .sort(null)
                             .value(function (d) {
                                 return d.value;
                             });
-                        // pie是一个函数
                         var pieData = pie(dataset);
-                        // 创建计算弧形路径的函数
                         var radius = 120;
                         var arc = d3.arc()
                             .innerRadius(0)
@@ -193,7 +351,6 @@
                         var slices = main.append('g').attr('class', 'slices');
                         var lines = main.append('g').attr('class', 'lines');
                         var labels = main.append('g').attr('class', 'labels');
-                        // 添加弧形元素（g中的path）
                         var arcs = slices.selectAll('g')
                             .data(pieData)
                             .enter()
@@ -204,7 +361,6 @@
                             .attr('d', function (d) {
                                 return arc(d);
                             });
-                        // 添加文字标签
                         var texts = labels.selectAll('text')
                             .data(pieData)
                             .enter()
@@ -220,9 +376,7 @@
                                 return midAngel(d) < Math.PI ? 'start' : 'end';
                             })
                             .attr('transform', function (d, i) {
-                                // 找出外弧形的中心点
                                 var pos = outerArc.centroid(d);
-                                // 改变文字标识的x坐标
                                 pos[0] = radius * (midAngel(d) < Math.PI ? 1.5 : -1.5);
 
                                 return 'translate(' + pos + ')';
@@ -259,12 +413,12 @@
                     }
                 </script>
                 <h4 id="2.2.2">2.2.2 Import Composition</h4>
-                <iframe class="embed-property" scrolling="no"
+                <iframe class="embed-size" scrolling="no"
                         src="//atlas.media.mit.edu/en/visualize/embed/tree_map/hs92/import/chl/all/show/2016/?controls=false"
                         frameborder="0"></iframe>
                 <br/><br/>
                 <h4 id="2.2.3">2.2.3 Export Composition</h4>
-                <iframe class="embed-property" scrolling="no"
+                <iframe class="embed-size" scrolling="no"
                         src="//atlas.media.mit.edu/en/visualize/embed/tree_map/hs92/export/chl/all/show/2016/?controls=false"
                         frameborder="0"></iframe>
                 <br/><br/>
@@ -286,7 +440,7 @@
                 <h2 id="2.3">2.3 Economic Indicators</h2>
                 <h4 id="2.3.1">2.3.1 Exchange Rate</h4>
                 <iframe src="//knoema.com/atlas/embed/Ukraine/topics/Economy/Financial-Sector-Exchange-rates/Exchange-rate?"
-                        style="height:560px; width:900px" scrolling="no" frameborder="0"></iframe>
+                        style="height:580px; width:900px" scrolling="no" frameborder="0"></iframe>
                 <br/><br/>
                 <h4 id="2.3.2">2.3.2 Interest Rate</h4>
                 <p>
@@ -299,8 +453,11 @@
                     in demand. Interest Rate in Ukraine averaged 40 percent from 1992 until 2017, reaching an all time
                     high of 300 percent in October of 1994 and a record low of 6.50 percent in August of 2013.
                 </p>
-                <iframe src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=ukraineintrate&v=201712141458v&d1=20080101&d2=20181231&h=560&w=920'
-                        height='560' width='920' frameborder='0' scrolling='no'></iframe>
+                <!--<iframe src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=ukraineintrate&v=201712141458v&d1=20080101&d2=20181231&h=560&w=920'-->
+                <!--height='560' width='920' frameborder='0' scrolling='no'></iframe>-->
+                <iframe src="https://knoema.com/atlas/embed/Ukraine/topics/Economy/Financial-Sector-Interest-rates/Lending-interest-rate"
+                        allowtransparency="true" frameborder="0" class="embed-size"
+                        scrolling="no"></iframe>
                 <br/><br/>
                 <h4 id="2.3.3">2.3.3 Inflation Rate</h4>
                 <p>
@@ -316,10 +473,12 @@
                     1995 until 2017, reaching an all time high of 530.30 percent in September of 1995 and a record low
                     of -1.20 percent in June of 2012.
                 </p>
-                <iframe src="https://data.worldbank.org/share/widget?end=2016&indicators=FP.CPI.TOTL.ZG&locations=UA&start=2008&view=chart"
-                        width='900' height='560' frameBorder='0' scrolling="no"></iframe>
-                <iframe src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=ukraineir&v=201712081719v&d1=20080101&d2=20181231&h=560&w=900'
-                        height='560' width='900' frameborder='0' scrolling='no'></iframe>
+                <!--<iframe src="https://data.worldbank.org/share/widget?end=2016&indicators=FP.CPI.TOTL.ZG&locations=UA&start=2008&view=chart"-->
+                <!--width='900' height='560' frameBorder='0' scrolling="no"></iframe>-->
+                <!--<iframe src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=ukraineir&v=201712081719v&d1=20080101&d2=20181231&h=560&w=900'-->
+                <!--height='560' width='900' frameborder='0' scrolling='no'></iframe>-->
+                <iframe src="https://knoema.com/atlas/embed/Ukraine/topics/Economy/Inflation-and-Prices/Inflation-rate"
+                        allowtransparency="true" frameborder="0" class="embed-size" scrolling="no"></iframe>
                 <br/><br/>
                 <h4 id="2.3.4">2.3.4 Unemployment Rate</h4>
                 <p>
@@ -330,54 +489,63 @@
                     8.53 percent from 2003 until 2017, reaching an all time high of 10.60 percent in the fourth quarter
                     of 2014 and a record low of 6.30 percent in the third quarter of 2013.
                 </p>
-                <iframe src="https://data.worldbank.org/share/widget?start=2008&indicators=SL.UEM.TOTL.ZS&locations=UA&view=chart"
-                        width='900' height='560' frameBorder='0' scrolling="no"></iframe>
-                <iframe src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=ukraineur&v=201712221612v&d1=20080101&d2=20181231&h=560&w=920'
-                        height='560' width='920' frameborder='0' scrolling='no'></iframe>
+                <iframe src="https://knoema.com/atlas/embed/Ukraine/Unemployment-rate" allowtransparency="true"
+                        frameborder="0" class="embed-size" scrolling="no"></iframe>
+                <!--<iframe src="https://data.worldbank.org/share/widget?start=2008&indicators=SL.UEM.TOTL.ZS&locations=UA&view=chart"-->
+                <!--width='900' height='560' frameBorder='0' scrolling="no"></iframe>-->
+                <!--<iframe src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=ukraineur&v=201712221612v&d1=20080101&d2=20181231&h=560&w=920'-->
+                <!--height='560' width='920' frameborder='0' scrolling='no'></iframe>-->
                 <br/><br/>
-                <h4 id="2.3.5">2.3.5 Gini Coefficient</h4>
-                <iframe src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=ukr.si.pov.gini%3aworldbank&lbl=0&v=201801310000v&d1=20080101&d2=20181231&type=type=line&h=480&w=900'
-                        height='480' width='900' frameborder='0' scrolling='no'></iframe>
-                <iframe src="https://data.worldbank.org/share/widget?end=2015&indicators=SI.POV.GINI&locations=UA&start=2008&view=chart"
-                        width='910' height='606' frameBorder='0' scrolling="no"></iframe>
+                <h4 id="2.3.5">2.3.5 GINI Coefficient</h4>
+                <iframe src="https://knoema.com/atlas/embed/Ukraine/GINI-index" allowtransparency="true" frameborder="0"
+                        class="embed-size" scrolling="no"></iframe>
+                <!--<iframe src='https://d3fy651gv2fhd3.cloudfront.net/embed/?s=ukr.si.pov.gini%3aworldbank&lbl=0&v=201801310000v&d1=20080101&d2=20181231&type=type=line&h=480&w=900'-->
+                <!--height='480' width='900' frameborder='0' scrolling='no'></iframe>-->
+                <!--<iframe src="https://data.worldbank.org/share/widget?end=2015&indicators=SI.POV.GINI&locations=UA&start=2008&view=chart"-->
+                <!--width='910' height='606' frameBorder='0' scrolling="no"></iframe>-->
                 <br/><br/>
                 <h4 id="2.3.6">2.3.6 Human Development Index</h4>
-                <img width="910px" src="hdi.png"><br/><br/>
+                <iframe src="https://knoema.com/atlas/embed/Ukraine/Human-development-index" allowtransparency="true"
+                        frameborder="0" class="embed-size" scrolling="no"></iframe>
+                <!--<img width="910px" src="hdi.png"><br/><br/>-->
                 <h4 id="2.3.7">2.3.7 Balance of Payments</h4>
                 <h5 id="2.3.7.1">2.3.7.1 Current Account</h5>
-                <div style="width:900px;height: 400px;">
-                    <iframe src="https://www.assetmacro.com/macrochart?id=3473&table=12" frameborder="0" scrolling="no"
-                            width="900px" height="380px"></iframe>
-                    <div style="font-size: 12px;font-family: Arial, sans-serif; color:#428bca;text-align: center;position: relative;">
-                        Powered by AssetMacro.com <a style="font-size:10px;color:#428bca;text-decoration:none;"
-                                                     href="https://www.assetmacro.com" target="_blank">Financial
-                        Advisor</a> - <a href="https://www.assetmacro.com/ukraine/ukraine-current-account/"
-                                         target="_blank" style="font-size:10px;color:#428bca;text-decoration:none;">Ukraine
-                        Current Account | Free Economic Data | 1994 - 2017 | Macroecomic Indicators | Leading Indicators
-                        | Chart</a></div>
-                </div>
-                <img src="cubop.png" width="910px"><br/><br/>
+                <!--<div style="width:900px;height: 400px;">-->
+                <!--<iframe src="https://www.assetmacro.com/macrochart?id=3473&table=12" frameborder="0" scrolling="no"-->
+                <!--width="900px" height="380px"></iframe>-->
+                <!--<div style="font-size: 12px;font-family: Arial, sans-serif; color:#428bca;text-align: center;position: relative;">-->
+                <!--Powered by AssetMacro.com <a style="font-size:10px;color:#428bca;text-decoration:none;"-->
+                <!--href="https://www.assetmacro.com" target="_blank">Financial-->
+                <!--Advisor</a> - <a href="https://www.assetmacro.com/ukraine/ukraine-current-account/"-->
+                <!--target="_blank" style="font-size:10px;color:#428bca;text-decoration:none;">Ukraine-->
+                <!--Current Account | Free Economic Data | 1994 - 2017 | Macroecomic Indicators | Leading Indicators-->
+                <!--| Chart</a></div>-->
+                <!--</div>-->
+                <iframe src="//knoema.com/atlas/embed/Ukraine/topics/Economy/Balance-of-Payments-Current-accounts/Current-account-balance?"
+                        class="embed-size" scrolling="no" frameborder="0"></iframe>
+                <!--<img src="cubop.png" width="910px"><br/><br/>-->
                 <h5 id="2.3.7.2">2.3.7.2 Capital Account</h5>
                 <iframe src="https://knoema.com/atlas/embed/Ukraine/topics/Economy/Balance-of-Payments-Capital-and-financial-account/Net-capital-account"
                         allowtransparency="true" frameborder="0" width="920" height="700"
                         scrolling="no"></iframe>
                 <br/><br/>
                 <h5 id="2.3.7.3">2.3.7.3 Financial Account</h5>
-                <iframe src="https://data.worldbank.org/share/widget?indicators=BN.FIN.TOTL.CD&locations=UA" width='900'
-                        height='600' frameBorder='0' scrolling="no"></iframe>
-                <br/><br/>
+                <iframe src="https://knoema.com/atlas/embed/Ukraine/topics/Economy/Balance-of-Payments-Capital-and-financial-account/Net-financial-account"
+                        allowtransparency="true" frameborder="0" class="embed-size" scrolling="no"></iframe>
+                <!--<iframe src="https://data.worldbank.org/share/widget?indicators=BN.FIN.TOTL.CD&locations=UA" width='900'-->
+                <!--height='600' frameBorder='0' scrolling="no"></iframe>-->
                 <h2 id="2.4">2.4 Trade</h2>
                 <h4 id="2.4.1">2.4.1 Trading Partners</h4>
                 <h5 id="2.4.1.1">2.4.1.1 Import Origins</h5>
-                <iframe width="910" height="560"
+                <iframe class="embed-size"
                         src="//atlas.media.mit.edu/en/visualize/embed/tree_map/hs92/import/aus/show/all/2016/?controls=false"
                         frameborder="0" scrolling="no"></iframe>
                 <h5 id="2.4.1.2">2.4.1.2 Export Destinations</h5>
-                <iframe width="910" height="560"
+                <iframe class="embed-size"
                         src="//atlas.media.mit.edu/en/visualize/embed/tree_map/hs92/export/aus/show/all/2016/?controls=false"
                         frameborder="0" scrolling="no"></iframe>
                 <h4 id="2.4.2">2.4.2 Trade Balance</h4>
-                <iframe width="910" height="560"
+                <iframe class="embed-size"
                         src="//atlas.media.mit.edu/en/visualize/embed/line/hs92/show/aus/all/all/1995.2016/?controls=false"
                         frameborder="0" scrolling="no"></iframe>
                 <h4 id="2.4.3">2.4.3 Trade Benefits</h4>
@@ -523,24 +691,33 @@
                 Reference: <a href="https://www.huffingtonpost.com/2014/03/07/us-foreign-aid-ukraine_n_4914682.html">https://www.huffingtonpost.com/2014/03/07/us-foreign-aid-ukraine_n_4914682.html</a><br/><br/>
                 <h2 id="4">4. Reference and Data Sources</h2>
                 <h4>Reference</h4>
+                <h5>For Part 1</h5>
+                <a href="http://www.economywatch.com/world_economy/netherlands/structure-of-economy.html">http://www.economywatch.com/world_economy/netherlands/structure-of-economy.html</a><br/>
+                <a href="https://ageconsearch.umn.edu/bitstream/182705/2/Polman-Costs_and_benefits_associated_with_the_externalities_generated-203_a.pdf">https://ageconsearch.umn.edu/bitstream/182705/2/Polman-Costs_and_benefits_associated_with_the_externalities_generated-203_a.pdf</a><br/>
+                <a href="http://www.pbl.nl/node/63907">http://www.pbl.nl/node/63907</a><br/>
+                <a href="http://www.oecd.org/economy/netherlands-economic-forecast-summary.htm">http://www.oecd.org/economy/netherlands-economic-forecast-summary.htm</a><br/><br/>
+
+                <h5>For Part 2</h5>
                 <a href="https://www.economy.com/ukraine/indicators">https://www.economy.com/ukraine/indicators</a><br/>
                 <a href="http://www.nationsencyclopedia.com/Europe/Ukraine-ENVIRONMENT.html">http://www.nationsencyclopedia.com/Europe/Ukraine-ENVIRONMENT.html</a><br/>
                 <a href="https://www.export.gov/article?id=Ukraine-Trade-Barriers">https://www.export.gov/article?id=Ukraine-Trade-Barriers</a><br/>
                 <a href="http://usa.mfa.gov.ua/mediafiles/sites/usa/files/export/Invest_in_Ukraine.pdf">http://usa.mfa.gov.ua/mediafiles/sites/usa/files/export/Invest_in_Ukraine.pdf</a><br/>
-                <a href="https://www.ft.com/content/10cf75b4-efd4-11e4-ab73-00144feab7de">https://www.ft.com/content/10cf75b4-efd4-11e4-ab73-00144feab7de</a><br/>
+                <a href="https://www.ft.com/content/10cf75b4-efd4-11e4-ab73-00144feab7de">https://www.ft.com/content/10cf75b4-efd4-11e4-ab73-00144feab7de</a><br/><br/>
+
+                <h5>For Part 3</h5>
                 <a href="https://www.voanews.com/a/china-supports-international-aid-for-ukraine/1879550.html">https://www.voanews.com/a/china-supports-international-aid-for-ukraine/1879550.html</a><br/>
                 <a href="https://www.reuters.com/article/us-ukraine-aid/ukraine-calls-for-urgent-western-aid-after-yanukovich-ousted-idUSBREA1N0EG20140224">https://www.reuters.com/article/us-ukraine-aid/ukraine-calls-for-urgent-western-aid-after-yanukovich-ousted-idUSBREA1N0EG20140224</a><br/>
                 <a href="https://www.huffingtonpost.com/2014/03/07/us-foreign-aid-ukraine_n_4914682.html">https://www.huffingtonpost.com/2014/03/07/us-foreign-aid-ukraine_n_4914682.html</a><br/><br/>
 
-                <h4>Data Sources</h4>
+                <h4>Sources of Data and Graphs</h4>
                 <a href="https://atlas.media.mit.edu/en">https://atlas.media.mit.edu/en</a><br/>
-                <a href="https://tradingeconomics.com/ukraine/indicators">https://tradingeconomics.com/ukraine/indicators</a><br/>
+                <a href="https://tradingeconomics.com/">https://tradingeconomics.com</a><br/>
                 <a href="https://data.worldbank.org/indicator">https://data.worldbank.org/indicator</a><br/>
-                <a href="https://www.assetmacro.com/ukraine/">https://www.assetmacro.com/ukraine/</a><br/>
-                <a href="http://hdr.undp.org/en/countries/profiles/UKR">http://hdr.undp.org/en/countries/profiles/UKR</a><br/>
-                <a href="https://knoema.com/atlas/Ukraine/topics/Economy">https://knoema.com/atlas/Ukraine/topics/Economy</a><br/>
-                <a href="https://www.economy.com/ukraine/current-account-balance">https://www.economy.com/ukraine/current-account-balance</a><br/>
-                <a href="https://www.indexmundi.com/facts/ukraine">https://www.indexmundi.com/facts/ukraine</a>
+                <a href="https://www.assetmacro.com">https://www.assetmacro.com</a><br/>
+                <a href="http://hdr.undp.org/en">http://hdr.undp.org/en</a><br/>
+                <a href="https://knoema.com/atlas">https://knoema.com/atlas</a><br/>
+                <!--<a href="https://www.economy.com/ukraine/current-account-balance">https://www.economy.com/ukraine/current-account-balance</a><br/>-->
+                <a href="https://www.indexmundi.com/facts/ukraine">https://www.indexmundi.com/facts/ukraine</a><br/><br/>
             </div>
         </td>
     </tr>
